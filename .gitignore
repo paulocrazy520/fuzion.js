@@ -1,0 +1,12 @@
+node_modules
+.idea
+contract-balances.csv
+.DS_Store
+
+config.ts
+
+*package-lock.json
+*dist
+src/play-pen.ts
+
+src/test.ts

@@ -1,0 +1,29 @@
+{
+  "name": "@atlo-labs/fuzion.js",
+  "version": "0.1.12",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "run-play-pen": "ts-node src/play-pen.ts",
+    "run-temp-tests": "ts-node src/temp-tests.ts",
+    "run-test": "ts-node src/test.ts"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@cosmjs/cosmwasm-stargate": "^0.29.0",
+    "@cosmjs/proto-signing": "^0.29.0",
+    "@cosmjs/stargate": "^0.29.0",
+    "chain-registry": "^1.0.0",
+    "axios": "^0.24.0",
+    "isomorphic-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.2",
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
+    "@typescript-eslint/parser": "^5.40.0",
+    "eslint": "^8.25.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.8.4",
+    "@types/isomorphic-fetch": "^0.0.35"
+  }
+}
